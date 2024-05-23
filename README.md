@@ -7,6 +7,11 @@
 - 다양한 명언을 화면에 표시
 - 명언의 출처도 함께 표시
 
+<div style="text-align: center;">
+  <img src="public/quote.png" alt="Quote Image" style="width: 50%;"/>
+</div>
+
+
 ### 설치 및 실행 방법
 
 1. **저장소 클론**
