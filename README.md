@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# Quotes (명언 모음)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 개요
+이 프로젝트는 명언을 화면에 표시하는 간단한 페이지입니다. 영감을 주는 다양한 명언을 볼 수 있습니다.
 
-Currently, two official plugins are available:
+### 기능
+- 다양한 명언을 화면에 표시
+- 명언의 출처도 함께 표시
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 설치 및 실행 방법
 
-## Expanding the ESLint configuration
+1. **저장소 클론**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+    ```bash
+    git clone https://github.com/Jeehay28/react-app-03
+    cd react-app-03
+    ```
 
-- Configure the top-level `parserOptions` property like this:
+2. **필요한 패키지 설치**
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+    ```bash
+    npm install
+    ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. **개발 서버 실행**
+
+    ```bash
+    npm run dev
+    ```
+
+4. **웹 브라우저에서 확인**
+    개발 서버가 실행되면, 웹 브라우저에서 `http://localhost:5173/`을 열어 페이지를 확인할 수 있습니다.
+
+### 사용 방법
+
+1. 페이지가 열리면, 다양한 명언이 화면에 표시됩니다.
+2. 명언의 출처도 함께 표시되어 있어, 어떤 명언인지 쉽게 확인할 수 있습니다.
+
+### 주요 파일 설명
+
+- `src/components/Quotes.tsx`: 어플리케이션의 메인 컴포넌트로, 명언과 그 출처를 표시하는 주요 컴포넌트입니다.
+
+### 명언 목록
+- 명언 목록은 계속 추가할 계획입니다.
